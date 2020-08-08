@@ -1,0 +1,45 @@
+﻿#modernbricksmenu2{
+padding: 0;
+width: 100%;
+border-top: 5px solid #2E6893; /*Blue color theme*/ 
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+#modernbricksmenu2 ul{
+margin:0;
+margin-right: 9px; /*margin between first menu item and right browser edge*/
+padding: 0;
+list-style: none;
+}
+
+#modernbricksmenu2 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform: uppercase;
+}
+
+#modernbricksmenu2 a{
+float: right;
+display: block;
+font: bold 11px Arial;
+color: white;
+text-decoration: none;
+margin: 0 1px 0 0; /*Margin between each menu item*/
+padding: 5px 10px;
+background-color: black; /*Blue color theme*/ 
+border-top: 1px solid white;
+}
+
+#modernbricksmenu2 a:hover{
+background-color: #2E6893; /*Blue color theme*/ 
+color: white;
+}
+
+#modernbricksmenu2 #current a{ /*currently selected tab*/
+background-color: #2E6893; /*Blue color theme*/ 
+color: white;
+border-color: #2E6893; /*Blue color theme*/ 
+}
