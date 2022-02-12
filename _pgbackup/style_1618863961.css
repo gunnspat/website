@@ -1,0 +1,149 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* !
+	*Nav Menu Styles */
+.navbar {
+    background-color: #2E6393;
+}
+
+.dropdown-menu {
+    background-color: #2E6393;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.dropdown-menu > li > a {
+    color: white;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: black;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: black;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+/* !
+	*Brand Header Container */
+/* !
+	*Content */
+.container {
+    width: 100%;
+}
+
+/* !
+	*Footer */
+.panel-footer {
+    padding: 10px 15px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    background-color: #2E6393;
+    color: white;
+}
+
+.header {
+    height: 190px;
+    background-image: url('images/gunnshead.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media only screen and (min-width:768px)
+{
+    body {
+        font-size: 18px;
+    }
+
+    .navbar-centre {
+        left: 35%;
+        position: absolute;
+        font-size: medium;
+        font-family: Baumans;
+        text-transform: uppercase;
+    }
+
+    .header {
+        height: 190px;
+        background-image: url('images/gunnshead.png');
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+@media only screen and (min-width:768px)
+{
+    .headertxt {
+        float: right;
+        padding-top: 110px;
+        font-family: Marck Script;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width:767px)
+{
+    body {
+        font-size: 14px;
+    }
+
+    .headersml {
+        float: right;
+        padding-top: 70px;
+        font-family: Marck Script;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .hdsml {
+        height: 130px;
+        background-image: url('images/headersml.png');
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
+
+.logo {
+    background-image: url('images/gunnslogo.png');
+    background-repeat: no-repeat;
+    background-position: 100% 5%;
+    position: absolute;
+    background-size: 35%;
+    right: 0;
+}
+
+.textblue {
+    color: #2E6393;
+}
+

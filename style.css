@@ -1,7 +1,4 @@
-
-
-body
-{
+body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
     color: #333;
@@ -10,33 +7,26 @@ body
     margin: 0 auto;
 }
 
-/*!
-	*Nav Menu Styles
-*/
-
-.navbar
-{
+/* !
+	*Nav Menu Styles */
+.navbar {
     background-color: #2E6393;
 }
 
-.dropdown-menu
-{
+.dropdown-menu {
     background-color: #2E6393;
 }
 
-.navbar-default .navbar-nav > li > a
-{
+.navbar-default .navbar-nav > li > a {
     color: white;
 }
 
-.dropdown-menu > li > a
-{
+.dropdown-menu > li > a {
     color: white;
 }
 
 .dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus
-{
+.dropdown-menu > li > a:focus {
     color: whitesmoke;
     text-decoration: none;
     background-color: black;
@@ -44,37 +34,25 @@ body
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus
-{
-    color: yellowgreen;
+.navbar-default .navbar-nav > .active > a:focus {
     background-color: black;
 }
 
-
-.navbar-default .navbar-brand
-{
+.navbar-default .navbar-brand {
     color: white;
 }
 
-/*!
-	*Brand Header Container
-*/
-
-/*!
-	*Content
-*/
-
-.container
-{
+/* !
+	*Brand Header Container */
+/* !
+	*Content */
+.container {
     width: 100%;
 }
 
-/*!
-	*Footer
-*/
-
-.panel-footer
-{
+/* !
+	*Footer */
+.panel-footer {
     padding: 10px 15px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -83,8 +61,7 @@ body
     color: white;
 }
 
-.header
-{
+.header {
     height: 190px;
     background-image: url('images/gunnshead.png');
     background-repeat: no-repeat;
@@ -93,20 +70,19 @@ body
 
 @media only screen and (min-width:768px)
 {
-    body
-    {
+    body {
         font-size: 18px;
     }
-    .navbar-centre
-    {
+
+    .navbar-centre {
         left: 35%;
         position: absolute;
         font-size: medium;
         font-family: Baumans;
         text-transform: uppercase;
     }
-    .header
-    {
+
+    .header {
         height: 190px;
         background-image: url('images/gunnshead.png');
         background-repeat: no-repeat;
@@ -114,8 +90,7 @@ body
     }
 }
 
-.fa
-{
+.fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
@@ -129,8 +104,7 @@ body
 
 @media only screen and (min-width:768px)
 {
-    .headertxt
-    {
+    .headertxt {
         float: right;
         padding-top: 110px;
         font-family: Marck Script;
@@ -140,20 +114,19 @@ body
 
 @media only screen and (max-width:767px)
 {
-    body
-    {
+    body {
         font-size: 14px;
     }
-    .headersml
-    {
+
+    .headersml {
         float: right;
         padding-top: 70px;
         font-family: Marck Script;
         padding-right: 20px;
         padding-left: 20px;
     }
-    .hdsml
-    {
+
+    .hdsml {
         height: 130px;
         background-image: url('images/headersml.png');
         background-repeat: no-repeat;
@@ -161,8 +134,7 @@ body
     }
 }
 
-.logo
-{
+.logo {
     background-image: url('images/gunnslogo.png');
     background-repeat: no-repeat;
     background-position: 100% 5%;
@@ -171,8 +143,13 @@ body
     right: 0;
 }
 
-.textblue
-{
+.textblue {
     color: #2E6393;
+}
+
+.myform {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
