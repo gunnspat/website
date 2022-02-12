@@ -1,4 +1,4 @@
-<?php get_header( 'page-about' ); ?>
+<?php get_header(); ?>
 
         <div id="fb-root"></div>
         <div class="header hdsml">
@@ -30,9 +30,6 @@
                             <a href="about.html"><?php _e( 'About Us', 'gunnspat' ); ?></a>
                         </li>
                         <li>
-                            <a href="prices.html"><?php _e( 'Prices', 'gunnspat' ); ?></a>
-                        </li>
-                        <li>
                             <a href="quote.html"><?php _e( 'Quote Me', 'gunnspat' ); ?></a>
                         </li>
                         <li class="dropdown">
@@ -54,19 +51,57 @@
                         </div>
                     </div>
                     <div class="col-xs-12">
-                        <h3><?php _e( 'Column title', 'gunnspat' ); ?></h3> 
-                        <p><?php _e( 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.', 'gunnspat' ); ?></p> 
+                        <section class="contact-1 content-block myform">
+                            <div class="container text-center">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    <div id="contact" class="form-container">
+                                        <div id="message"></div>
+                                        <form method="post" action="<?php echo get_template_directory_uri(); ?>/js/contact-form.php" name="contactform" id="contactform">
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <input name="name" id="name" type="text" value="" placeholder="Name" class="form-control"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <input name="email" id="email" type="text" value="" placeholder="Email" class="form-control"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="form-group">
+                                                        <input name="phone" id="phone" type="text" value="" placeholder="Phone" class="form-control"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.row -->
+                                            <div class="form-group">
+                                                <textarea name="comments" id="comments" class="form-control" rows="3" placeholder="Message" id="textArea"></textarea>
+                                                <p class="small text-muted"><span class="guardsman"><?php _e( '* All fields are required.', 'gunnspat' ); ?></span> <?php _e( 'Once we receive your message we will respond as soon as possible.', 'gunnspat' ); ?></p>
+                                            </div>
+                                            <div class="form-group">
+                                                <button class="btn btn-primary" type="submit" id="cf-submit" name="submit">
+                                                    <?php _e( 'Send', 'gunnspat' ); ?>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- /.form-container -->
+                                </div>
+                                <!-- /.col-sm-10 -->
+                            </div>
+                            <!-- /.container -->
+                        </section>                         
                     </div>
                 </div>
             </div>
         </main>
         <footer>
             <div class="panel-footer">
-                <i class="fa-at fa"></i> 
-                <?php _e( 'Gunn\'s Portable Appliance Testing : 2017', 'gunnspat' ); ?> 
+                <?php _e( 'Gunn&apos;s Portable Appliance Testing : 2010-2021&nbsp;', 'gunnspat' ); ?>
                 <i class="fa-copyright fa"></i> 
                 <?php _e( 'All Rights Reserved.', 'gunnspat' ); ?>
             </div>
         </footer>        
 
-<?php get_footer( 'page-about' ); ?>
+<?php get_footer(); ?>
