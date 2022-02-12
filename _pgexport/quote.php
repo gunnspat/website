@@ -11,33 +11,23 @@
         <nav class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only"><?php _e( 'Toggle navigation', 'gunnspat' ); ?></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only"><?php _e( 'Toggle navigation', 'gunnspat' ); ?></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <div class="navbar-left hidden-xs">
-                        <i class="fa fa-cc-paypal fa-2x fa-inverse"></i>
+                    <div class="navbar-left hidden-xs"><i class="fa fa-cc-paypal fa-2x fa-inverse"></i>
                     </div>
                     <ul class="nav navbar-nav navbar-centre">
-                        <li>
-                            <a href="index.html"><?php _e( 'Home', 'gunnspat' ); ?></a>
+                        <li><a href="index.html"><?php _e( 'Home', 'gunnspat' ); ?></a>
                         </li>
-                        <li>
-                            <a href="about.html"><?php _e( 'About Us', 'gunnspat' ); ?></a>
+                        <li><a href="about.html"><?php _e( 'About Us', 'gunnspat' ); ?></a>
                         </li>
-                        <li>
-                            <a href="quote.html"><?php _e( 'Quote Me', 'gunnspat' ); ?></a>
+                        <li><a href="quote.html"><?php _e( 'Quote Me', 'gunnspat' ); ?></a>
                         </li>
                         <li class="dropdown">
 </li>
                     </ul>
-                    <div class="navbar-right hidden-xs">
-                        <a href="https://www.facebook.com/gunnspat" target="_blank"><i class="fa fa-facebook fa-inverse fa-2x"></i></a>
-                        <a href="https://twitter.com/gunnspat_steve" target="_blank"><i class="fa fa-inverse fa-twitter fa-2x"></i></a>
+                    <div class="navbar-right hidden-xs"><a href="https://www.facebook.com/gunnspat" target="_blank"><i class="fa fa-facebook fa-inverse fa-2x"></i></a><a href="https://twitter.com/gunnspat_steve" target="_blank"><i class="fa fa-inverse fa-twitter fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -98,7 +88,7 @@
         </main>
         <footer>
             <div class="panel-footer">
-                <?php _e( 'Gunn&apos;s Portable Appliance Testing : 2010-2021&nbsp;', 'gunnspat' ); ?>
+                <?php _e( 'Gunn&apos;s Portable Appliance Testing : 2010-2022&nbsp;', 'gunnspat' ); ?>
                 <i class="fa-copyright fa"></i> 
                 <?php _e( 'All Rights Reserved.', 'gunnspat' ); ?>
             </div>
